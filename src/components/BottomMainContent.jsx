@@ -1,6 +1,5 @@
 import MostOrderedFood from "./MostOrderedFood";
 import OrderLineChart from "./OrderLineChart";
-import SectionTitle from "./SectionTitle";
 import YourRating from "./YourRating";
 
 function BottomMainContent() {
@@ -10,7 +9,7 @@ function BottomMainContent() {
         <YourRating />
         <MostOrderedFood />
 
-        {/* <OrderLineChart /> */}
+        <OrderLineChart />
       </div>
     </div>
   );
