@@ -10,7 +10,7 @@ import ViewReportBtn from "./ViewReportBtn";
 import { FaArrowDownLong } from "react-icons/fa6";
 
 const data = [
-  { day: "01", cur: 1000, prev: 1500 },
+  { day: "01", cur: 1500, prev: 1500 },
   { day: "02", cur: 800, prev: 2200 },
   { day: "03", cur: 1800, prev: 1000 },
   { day: "04", cur: 1600, prev: 2400 },
@@ -55,21 +55,23 @@ function OrderLineChart() {
               hide={false}
               axisLine={false}
               tickLine={false}
-              tick={{ fontSize: 10 }}
+              tick={{ fontSize: 11, fill: "#737B8B" }}
             />
             <Line
-              type="monotone"
+              type="linear"
               dataKey="cur"
               stroke="#5A6ACF"
               strokeWidth={2}
               dot={false}
+              connectNulls={false}
             />
             <Line
-              type="monotone"
+              type="linear"
               dataKey="prev"
               stroke="#E9ECEF"
               strokeWidth={2}
               dot={false}
+              connectNulls={false}
             />
           </LineChart>
         </ResponsiveContainer>
