@@ -19,7 +19,7 @@ function Sidebar() {
           <h2 className="text-[11px] tracking-[1px] leading-normal text-[#082431]/50 pl-10 py-3 pt-8">
             MENU
           </h2>
-          {/* Menu Items Loop */}
+
           {menu.map((item, index) => {
             const Icon = item.icon;
 
