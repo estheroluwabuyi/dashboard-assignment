@@ -20,7 +20,7 @@ const data = [
 
 function OrderLineChart() {
   return (
-    <div className="h-full">
+    <div className="h-[362px] ">
       <section className="flex justify-between">
         <SectionTitle text="Revenue" />
         <ViewReportBtn />
@@ -42,7 +42,7 @@ function OrderLineChart() {
         </p>
       </section>
 
-      <div className="h-[120px]">
+      <div className="h-[141px] mt-6">
         <ResponsiveContainer>
           <LineChart data={data}>
             <CartesianGrid
