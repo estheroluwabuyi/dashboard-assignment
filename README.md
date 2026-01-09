@@ -1,16 +1,21 @@
-# React + Vite
+#  GoodFood Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, pixel-perfect admin dashboard built with **React**, **Tailwind CSS**, and **Recharts**. This project implements a modern food-delivery management UI based on professional Figma designs.
 
-Currently, two official plugins are available:
+## 📸 Preview
+![Dashboard Preview](preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- **Revenue Analytics**: Grouped Bar Chart comparing current vs. previous week performance with custom Tooltips.
+- **Order Time Tracking**: Donut Chart showing peak ordering hours with specialized segment rotation.
+- **Visual Ratings**: Custom CSS-based overlapping bubble UI for hygiene, taste, and packaging metrics.
+- **Live Sidebar**: Fully functional navigation with active states and group-hover effects.
+- **Clean List UI**: Most ordered food items with subtle dividers and optimized image handling.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Framework**: [React.js](https://reactjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Data Visualization**: [Recharts](https://recharts.org/)
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons)
