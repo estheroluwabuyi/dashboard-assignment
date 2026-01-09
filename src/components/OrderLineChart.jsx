@@ -31,7 +31,7 @@ function OrderLineChart() {
         </h2>
 
         <div className="flex gap-2 items-center mt-[12px]">
-          <FaArrowDownLong className="text-[##F2383A] " />
+          <FaArrowDownLong className="text-[#F2383A] " />
           <p className="font-semibold tracking-wide leading-[11px] text-[#000000]/50 ">
             <span className="text-[#F2383A] ">2.1%</span> vs last week
           </p>
