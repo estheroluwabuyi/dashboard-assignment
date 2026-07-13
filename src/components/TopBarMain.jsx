@@ -2,6 +2,7 @@ import React from "react";
 import { FaChevronDown } from "react-icons/fa";
 import { FiSearch } from "react-icons/fi";
 import { IoIosNotifications } from "react-icons/io";
+import emoticon from "/img/Emoticon.png";
 
 function TopBarMain() {
   return (
@@ -17,7 +18,7 @@ function TopBarMain() {
 
       <div className="w-[218px] flex justify-center items-center gap-4">
         <div className="w-8 h-8 bg-[#FFE6CC] rounded-full flex items-center justify-center">
-          <img src="/img/Emoticon.png" alt="burger" className=" w-4 h-3.25 " />
+          <img src={emoticon} alt="burger" className=" w-4 h-3.25 " />
         </div>
 
         <div className="flex items-center gap-2 cursor-pointer w-fit">

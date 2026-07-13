@@ -11,15 +11,11 @@ function Dashboard() {
       <div className="flex justify-between items-center pt-[50px] ">
         <RevenueCard />
         <OrderFile />
-       
       </div>
-
-      
 
       <>
         <div className="absolute w-[95%] border-[0.5px] border-[#C8CBD9] z-10  left-1/2 -translate-x-1/2 mt-10"></div>
       </>
-
       <BottomMainContent />
     </div>
   );

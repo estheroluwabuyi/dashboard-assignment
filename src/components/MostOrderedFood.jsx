@@ -1,10 +1,14 @@
 import SectionTitle from "./SectionTitle";
+import salad from "/img/food-1.png";
+import chickenNoodles from "/img/food-2.png";
+import smoothieFruits from "/img/food-3.png";
+import hotChickenWings from "/img/food-4.png";
 
 const foods = [
-  { name: "Fresh Salad Bowl", price: "IDR 45.000", img: "/img/food-1.png" },
-  { name: "Chicken Noodles", price: "IDR 75.000", img: "/img/food-2.png" },
-  { name: "Smoothie Fruits", price: "IDR 45.000", img: "/img/food-3.png" },
-  { name: "Hot Chicken Wings", price: "IDR 45.000", img: "/img/food-4.png" },
+  { name: "Fresh Salad Bowl", price: "IDR 45.000", img: salad },
+  { name: "Chicken Noodles", price: "IDR 75.000", img: chickenNoodles },
+  { name: "Smoothie Fruits", price: "IDR 45.000", img: smoothieFruits },
+  { name: "Hot Chicken Wings", price: "IDR 45.000", img: hotChickenWings },
 ];
 
 function MostOrderedFood() {
@@ -21,8 +25,6 @@ function MostOrderedFood() {
             key={i}
             className="flex items-center justify-between pb-5 border-b border-[#F8F9FB] last:border-0"
           >
-
-       
             <div className="flex items-center gap-3">
               <div className="w-[28px] h-[28px] rounded-full overflow-hidden shadow-sm border border-[#DBE5EB]/80">
                 <img
